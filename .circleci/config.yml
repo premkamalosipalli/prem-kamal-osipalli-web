@@ -8,8 +8,7 @@ jobs:
     steps:
       - checkout:
           path: /home/circleci/premkamalosipalli/web
-      - setup_remote_docker:
-          version: 17.05.0-ce
+      - setup_remote_docker: {}
       - run: npm install
       - run: npm run build
       - run:
