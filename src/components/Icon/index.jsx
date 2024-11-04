@@ -3,7 +3,7 @@ export const  icon={
     logo: '/icons/common/logo.png',
 
     //home
-    alignbits: '/icons/home/logo.png',
+    alignbits: '/icons/home/alignbits.png',
     anu: '/icons/home/anu.png',
     aws: '/icons/home/aws.png',
     profile: '/icons/home/profile.JPG',
