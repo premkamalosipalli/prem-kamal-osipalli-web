@@ -1,11 +1,5 @@
 import React, {useState} from 'react';
-import profile from '../../assets/profile.JPG';
-import unt from '../../assets/unt.png';
-import anu from '../../assets/anu.png';
-import veritypay from '../../assets/veritypay.png';
-import alignbits from '../../assets/alignbits.png';
-import brick from '../../assets/brick.png';
-import aws from '../../assets/aws.png';
+import {icon} from "@/components/Icon";
 
 export default function Home() {
 
@@ -51,7 +45,7 @@ export default function Home() {
                         <div
                             className="flex-shrink-0 rounded-full overflow-hidden shadow-lg w-60 h-60 md:w-80 md:h-80 lg:w-96 lg:h-96">
                             <img
-                                src={profile}
+                                src={icon.profile}
                                 alt="Profile"
                                 className="w-full h-full object-cover"
                             />
@@ -95,7 +89,7 @@ export default function Home() {
                     <div className="flex items-center justify-center rounded  h-80 ">
                         <div className="flex flex-col items-center pb-10">
                             <img className="w-36 h-36 mb-3 rounded-full shadow-lg"
-                                 src={unt} alt="Bonnie image"/>
+                                 src={icon.unt} alt="Bonnie image"/>
                             <h5 className="mb-1 text-xl font-medium text-gray-900 dark:text-white">University of North
                                 Texas</h5>
                             <span
@@ -111,7 +105,7 @@ export default function Home() {
                     <div className="flex items-center justify-center rounded h-80 ">
                         <div className="flex flex-col items-center pb-10">
                             <img className="w-36 h-36 mb-3 rounded-full shadow-lg"
-                                 src={anu} alt="Bonnie image"/>
+                                 src={icon.anu} alt="Bonnie image"/>
                             <h5 className="mb-1 text-xl font-medium text-gray-900 dark:text-white">Acharya Nagarjuna
                                 University</h5>
                             <span
@@ -137,7 +131,7 @@ export default function Home() {
                     <div className="flex items-center justify-center rounded  h-80 ">
                         <div className="flex flex-col items-center pb-10">
                             <img className="w-36 h-36 mb-3 rounded-full shadow-lg"
-                                 src={veritypay} alt="Bonnie image"/>
+                                 src={icon.veritypay} alt="Bonnie image"/>
                             <h5 className="mb-1 text-xl font-medium text-gray-900 dark:text-white">VerityPay</h5>
                             <span
                                 className="text-sm mb-1 text-gray-500 dark:text-gray-400">Software Enginner</span>
@@ -241,7 +235,7 @@ export default function Home() {
                     <div className="flex items-center justify-center rounded  h-80 ">
                         <div className="flex flex-col items-center pb-10">
                             <img className="w-36 h-36 mb-3 rounded-full shadow-lg"
-                                 src={alignbits} alt="Bonnie image"/>
+                                 src={icon.alignbits} alt="Bonnie image"/>
                             <h5 className="mb-1 text-xl font-medium text-gray-900 dark:text-white">AlignBits LLC</h5>
                             <span
                                 className="text-sm mb-1 text-gray-500 dark:text-gray-400">Software Enginner</span>
@@ -330,7 +324,7 @@ export default function Home() {
                     <div className="flex items-center justify-center rounded  h-80 ">
                         <div className="flex flex-col items-center pb-10">
                             <img className="w-36 h-36 mb-3 rounded-full shadow-lg"
-                                 src={brick} alt="Bonnie image"/>
+                                 src={icon.brick} alt="Bonnie image"/>
                             <h5 className="mb-1 text-xl font-medium text-gray-900 dark:text-white">BrickYard Digital
                                 Private Limited</h5>
                             <span
@@ -440,7 +434,7 @@ export default function Home() {
                         <div className="flex flex-col items-center pb-10">
                             <img
                                 className="w-24 h-24 md:w-36 md:h-36 mb-3 rounded-full shadow-lg"
-                                src={aws}
+                                src={icon.aws}
                                 alt="AWS Solutions Architect"
                             />
                             <h5 className="mb-1 text-lg md:text-xl font-medium text-gray-900 dark:text-white">
@@ -460,7 +454,7 @@ export default function Home() {
                         <div className="flex flex-col items-center pb-10">
                             <img
                                 className="w-24 h-24 md:w-36 md:h-36 mb-3 rounded-full shadow-lg"
-                                src={anu}
+                                src={icon.anu}
                                 alt="Product Management Certificate"
                             />
                             <h5 className="mb-1 text-lg md:text-xl font-medium text-gray-900 dark:text-white">
