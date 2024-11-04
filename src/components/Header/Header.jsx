@@ -38,7 +38,7 @@ export default function Header() {
                             {isOpen ? (
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
-                                    fill="none"
+                                    fillRule="none"
                                     viewBox="0 0 24 24"
                                     strokeWidth={2}
                                     stroke="currentColor"
@@ -49,7 +49,7 @@ export default function Header() {
                             ) : (
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
-                                    fill="none"
+                                    fillRule="none"
                                     viewBox="0 0 24 24"
                                     strokeWidth={2}
                                     stroke="currentColor"
