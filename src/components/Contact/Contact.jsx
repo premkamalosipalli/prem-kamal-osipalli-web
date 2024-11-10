@@ -58,11 +58,6 @@ export default function Contact() {
                             Send Message
                         </button>
                     </form>
-                    <div className="mt-8 text-center">
-                        <h3 className="text-lg font-bold text-gray-900">Or reach me at:</h3>
-                        <p className="text-gray-700">Email: prem.kamal@example.com</p>
-                        <p className="text-gray-700">Phone: (123) 456-7890</p>
-                    </div>
                 </div>
             </div>
         </div>

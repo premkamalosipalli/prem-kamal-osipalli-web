@@ -22,16 +22,16 @@ export default function Home() {
     return (
         <div className="p-4 sm:ml-40 sm:mr-40">
             <div className="p-4 border-dashed rounded-lg dark:border-gray-700">
-                <div className="flex flex-col items-center justify-center h-48 mb-4 rounded dark:bg-gray-800">
+                <div className="flex flex-col items-center justify-center h-48 mb-4 rounded dark:bg-white">
                     {/*Introduction*/}
-                    <h2 className="text-lg font-bold text-black dark:text-gray-300 mb-2">
+                    <h2 className="text-lg font-bold text-black dark:text-black mb-2">
                         Hello, my name is
                     </h2>
                     <p className="text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight tracking-tight text-gray-900 dark:text-white">
                         <span className="font-bold text-black">Prem kamal</span>{" "}
                         <span className="font-bold text-blue-900">Osipalli</span>
                     </p>
-                    <p className="mt-2 text-lg font-bold text-black dark:text-gray-400">
+                    <p className="mt-2 text-lg font-bold text-black dark:text-black">
                         Software Engineer at VerityPay
                     </p>
 
@@ -90,14 +90,14 @@ export default function Home() {
                         <div className="flex flex-col items-center pb-10">
                             <img className="w-36 h-36 mb-3 rounded-full shadow-lg"
                                  src={icon.unt} alt="Bonnie image"/>
-                            <h5 className="mb-1 text-xl font-medium text-gray-900 dark:text-white">University of North
+                            <h5 className="mb-1 text-xl font-medium text-gray-900 dark:text-black">University of North
                                 Texas</h5>
                             <span
-                                className="text-sm mb-1 text-gray-500 dark:text-gray-400">Master's in Computer Science</span>
+                                className="text-sm mb-1 text-gray-500 dark:text-black">Master's in Computer Science</span>
                             <span
-                                className="text-sm italic text-gray-500 dark:text-gray-400">Jan 2022 -  May 2023</span>
+                                className="text-sm italic text-gray-500 dark:text-black">Jan 2022 -  May 2023</span>
                             <span
-                                className="text-sm text-gray-500 dark:text-gray-400">GPA: 4/4</span>
+                                className="text-sm text-gray-500 dark:text-black">GPA: 4/4</span>
 
 
                         </div>
@@ -106,15 +106,15 @@ export default function Home() {
                         <div className="flex flex-col items-center pb-10">
                             <img className="w-36 h-36 mb-3 rounded-full shadow-lg"
                                  src={icon.anu} alt="Bonnie image"/>
-                            <h5 className="mb-1 text-xl font-medium text-gray-900 dark:text-white">Acharya Nagarjuna
+                            <h5 className="mb-1 text-xl font-medium text-gray-900 dark:text-black">Acharya Nagarjuna
                                 University</h5>
                             <span
-                                className="text-sm mb-1 text-gray-500 dark:text-gray-400">Bachelor's in Computer Science</span>
+                                className="text-sm mb-1 text-gray-500 dark:text-black">Bachelor's in Computer Science</span>
 
                             <span
-                                className="text-sm italic text-gray-500 dark:text-gray-400">June 2015 -  April 2019</span>
+                                className="text-sm italic text-gray-500 dark:text-black">June 2015 -  April 2019</span>
                             <span
-                                className="text-sm text-gray-500 dark:text-gray-400">CGPA: 8.5/10</span>
+                                className="text-sm text-gray-500 dark:text-black">CGPA: 8.5/10</span>
 
                         </div>
                     </div>
@@ -132,15 +132,15 @@ export default function Home() {
                         <div className="flex flex-col items-center pb-10">
                             <img className="w-36 h-36 mb-3 rounded-full shadow-lg"
                                  src={icon.veritypay} alt="Bonnie image"/>
-                            <h5 className="mb-1 text-xl font-medium text-gray-900 dark:text-white">VerityPay</h5>
+                            <h5 className="mb-1 text-xl font-medium text-gray-900 dark:text-black">VerityPay</h5>
                             <span
-                                className="text-sm mb-1 text-gray-500 dark:text-gray-400">Software Enginner</span>
+                                className="text-sm mb-1 text-gray-500 dark:text-black">Software Enginner</span>
 
                             <span
-                                className="text-sm mb-1 text-gray-500 dark:text-gray-400">Houston, Texas</span>
+                                className="text-sm mb-1 text-gray-500 dark:text-black">Houston, Texas</span>
 
                             <span
-                                className="text-sm italic text-gray-500 dark:text-gray-400">June 2023 -  Present</span>
+                                className="text-sm italic text-gray-500 dark:text-black">June 2023 -  Present</span>
 
                             <div className="flex mt-4 md:mt-4">
                                 {/* Modal Toggle Button */}
@@ -158,11 +158,11 @@ export default function Home() {
                                     >
                                         <div className="relative p-4 w-full max-w-2xl">
                                             {/* Modal Content */}
-                                            <div className="relative bg-white rounded-lg shadow dark:bg-gray-700">
+                                            <div className="relative bg-white rounded-lg shadow dark:bg-white">
                                                 {/* Modal Header */}
                                                 <div
                                                     className="flex items-center justify-between p-4 md:p-5 border-b rounded-t dark:border-gray-600">
-                                                    <h3 className="text-xl font-semibold text-gray-900 dark:text-white">
+                                                    <h3 className="text-xl font-semibold text-gray-900 dark:text-black">
                                                         Roles and Responsibilities
                                                     </h3>
                                                     <button
@@ -191,13 +191,13 @@ export default function Home() {
 
                                                 {/* Modal Body */}
                                                 <div className="p-4 md:p-5 space-y-4">
-                                                    <p className="text-base leading-relaxed text-gray-500 dark:text-gray-400">
+                                                    <p className="text-base leading-relaxed text-gray-500 dark:text-black">
                                                         Led the development of a cloud-based B2C SaaS financial payment
                                                         solution, driving the product from
                                                         conception to market launch. Focused on enhancing security and
                                                         optimizing architectural design.
                                                     </p>
-                                                    <p className="text-base leading-relaxed text-gray-500 dark:text-gray-400">
+                                                    <p className="text-base leading-relaxed text-gray-500 dark:text-black">
                                                         Engineered and deployed a containerized application using Java,
                                                         Spring Boot, Spring Security, Spring WebFlux, Spring
                                                         Cloud (Gateway, Load Balancer, Open Feign), JWT, Hibernate,
@@ -205,19 +205,19 @@ export default function Home() {
                                                         achieving a balance between performance and scalability.
                                                     </p>
 
-                                                    <p className="text-base leading-relaxed text-gray-500 dark:text-gray-400">
+                                                    <p className="text-base leading-relaxed text-gray-500 dark:text-black">
                                                         Integrated Nacos for service registration and discovery,
                                                         streamlining service management and resilience
                                                         in the cloud environment.
                                                     </p>
 
-                                                    <p className="text-base leading-relaxed text-gray-500 dark:text-gray-400">
+                                                    <p className="text-base leading-relaxed text-gray-500 dark:text-black">
                                                         Collaborated with financial systems to ensure compliance with
                                                         industry regulations and stayed informed
                                                         about emerging payment trends.
                                                     </p>
 
-                                                    <p className="text-base leading-relaxed text-gray-500 dark:text-gray-400">
+                                                    <p className="text-base leading-relaxed text-gray-500 dark:text-black">
                                                         Applied Agile methodologies to manage project timelines,
                                                         resources, and deliverables while employing
                                                         AWS for CI/CD and code promotion.
@@ -236,15 +236,15 @@ export default function Home() {
                         <div className="flex flex-col items-center pb-10">
                             <img className="w-36 h-36 mb-3 rounded-full shadow-lg"
                                  src={icon.alignbits} alt="Bonnie image"/>
-                            <h5 className="mb-1 text-xl font-medium text-gray-900 dark:text-white">AlignBits LLC</h5>
+                            <h5 className="mb-1 text-xl font-medium text-gray-900 dark:text-black">AlignBits LLC</h5>
                             <span
-                                className="text-sm mb-1 text-gray-500 dark:text-gray-400">Software Enginner</span>
+                                className="text-sm mb-1 text-gray-500 dark:text-black">Software Enginner</span>
 
                             <span
-                                className="text-sm mb-1 text-gray-500 dark:text-gray-400">Pune, India</span>
+                                className="text-sm mb-1 text-gray-500 dark:text-black">Pune, India</span>
 
                             <span
-                                className="text-sm italic text-gray-500 dark:text-gray-400">Aug 2021 -  Dec 2021</span>
+                                className="text-sm italic text-gray-500 dark:text-black">Aug 2021 -  Dec 2021</span>
 
                             <div className="flex mt-4 md:mt-4">
                                 {/* Modal Toggle Button */}
@@ -262,11 +262,11 @@ export default function Home() {
                                     >
                                         <div className="relative p-4 w-full max-w-2xl">
                                             {/* Modal Content */}
-                                            <div className="relative bg-white rounded-lg shadow dark:bg-gray-700">
+                                            <div className="relative bg-white rounded-lg shadow dark:bg-white">
                                                 {/* Modal Header */}
                                                 <div
                                                     className="flex items-center justify-between p-4 md:p-5 border-b rounded-t dark:border-gray-600">
-                                                    <h3 className="text-xl font-semibold text-gray-900 dark:text-white">
+                                                    <h3 className="text-xl font-semibold text-gray-900 dark:text-black">
                                                         Roles and Responsibilities
                                                     </h3>
                                                     <button
@@ -295,18 +295,18 @@ export default function Home() {
 
                                                 {/* Modal Body */}
                                                 <div className="p-4 md:p-5 space-y-4">
-                                                    <p className="text-base leading-relaxed text-gray-500 dark:text-gray-400">
+                                                    <p className="text-base leading-relaxed text-gray-500 dark:text-black">
                                                         Designed, developed, tested, and deployed software applications
                                                         using Java, JSON, Spring MVC,
                                                         Hibernates and MongoDB.
                                                     </p>
-                                                    <p className="text-base leading-relaxed text-gray-500 dark:text-gray-400">
+                                                    <p className="text-base leading-relaxed text-gray-500 dark:text-black">
                                                         Created RESTful Web Services for seamless data retrieval,
                                                         storage, and integration with front-end
                                                         technologies like AngularJS.
                                                     </p>
 
-                                                    <p className="text-base leading-relaxed text-gray-500 dark:text-gray-400">
+                                                    <p className="text-base leading-relaxed text-gray-500 dark:text-black">
                                                         Involvement in Developing a team by providing mentorship setting
                                                         technical standards and ensuring
                                                         consistency.
@@ -325,16 +325,16 @@ export default function Home() {
                         <div className="flex flex-col items-center pb-10">
                             <img className="w-36 h-36 mb-3 rounded-full shadow-lg"
                                  src={icon.brick} alt="Bonnie image"/>
-                            <h5 className="mb-1 text-xl font-medium text-gray-900 dark:text-white">BrickYard Digital
+                            <h5 className="mb-1 text-xl font-medium text-gray-900 dark:text-black">BrickYard Digital
                                 Private Limited</h5>
                             <span
-                                className="text-sm mb-1 text-gray-500 dark:text-gray-400">Full Stack Java Developer</span>
+                                className="text-sm mb-1 text-gray-500 dark:text-black">Full Stack Java Developer</span>
 
                             <span
-                                className="text-sm mb-1 text-gray-500 dark:text-gray-400">Hyderabad, India</span>
+                                className="text-sm mb-1 text-gray-500 dark:text-black">Hyderabad, India</span>
 
                             <span
-                                className="text-sm italic text-gray-500 dark:text-gray-400">Aug 2019 -  Aug 2021</span>
+                                className="text-sm italic text-gray-500 dark:text-black">Aug 2019 -  Aug 2021</span>
 
                             <div className="flex mt-4 md:mt-4">
                                 {/* Modal Toggle Button */}
@@ -352,11 +352,11 @@ export default function Home() {
                                     >
                                         <div className="relative p-4 w-full max-w-2xl">
                                             {/* Modal Content */}
-                                            <div className="relative bg-white rounded-lg shadow dark:bg-gray-700">
+                                            <div className="relative bg-white rounded-lg shadow dark:bg-white">
                                                 {/* Modal Header */}
                                                 <div
                                                     className="flex items-center justify-between p-4 md:p-5 border-b rounded-t dark:border-gray-600">
-                                                    <h3 className="text-xl font-semibold text-gray-900 dark:text-white">
+                                                    <h3 className="text-xl font-semibold text-gray-900 dark:text-black">
                                                         Roles and Responsibilities
                                                     </h3>
                                                     <button
@@ -385,13 +385,13 @@ export default function Home() {
 
                                                 {/* Modal Body */}
                                                 <div className="p-4 md:p-5 space-y-4">
-                                                    <p className="text-base leading-relaxed text-gray-500 dark:text-gray-400">
+                                                    <p className="text-base leading-relaxed text-gray-500 dark:text-black">
                                                         Worked with Software Development and testing team to design and
                                                         develop robust solutions to meet
                                                         client’s requirements for functionality, scalability, and
                                                         performance.
                                                     </p>
-                                                    <p className="text-base leading-relaxed text-gray-500 dark:text-gray-400">
+                                                    <p className="text-base leading-relaxed text-gray-500 dark:text-black">
                                                         Designed, developed, tested, and deployed E-commerce
                                                         applications using Java Script, Type Script,
                                                         ReactJS, AngularJS, Angular 4, Java, JSON, Java EE, Spring Boot,
@@ -399,13 +399,13 @@ export default function Home() {
                                                         database and Google Cloud Platform.
                                                     </p>
 
-                                                    <p className="text-base leading-relaxed text-gray-500 dark:text-gray-400">
+                                                    <p className="text-base leading-relaxed text-gray-500 dark:text-black">
                                                         Developed RESTful web services using Spring JPA and provided
                                                         support for Production and
                                                         Implementation Issues.
                                                     </p>
 
-                                                    <p className="text-base leading-relaxed text-gray-500 dark:text-gray-400">
+                                                    <p className="text-base leading-relaxed text-gray-500 dark:text-black">
                                                         Implemented Microservice architecture to efficiently manage
                                                         backend application services, trading
                                                         partners, and 3rd-party services through API interfaces.
@@ -437,13 +437,13 @@ export default function Home() {
                                 src={icon.aws}
                                 alt="AWS Solutions Architect"
                             />
-                            <h5 className="mb-1 text-lg md:text-xl font-medium text-gray-900 dark:text-white">
+                            <h5 className="mb-1 text-lg md:text-xl font-medium text-gray-900 dark:text-black">
                                 AWS Solutions Architect Associate
                             </h5>
-                            <span className="text-sm mb-1 text-gray-500 dark:text-gray-400">
+                            <span className="text-sm mb-1 text-gray-500 dark:text-black">
                 Amazon Web Services
             </span>
-                            <span className="text-sm italic text-gray-500 dark:text-gray-400">
+                            <span className="text-sm italic text-gray-500 dark:text-black">
                 April 2024 - April 2027
             </span>
                         </div>
@@ -454,14 +454,14 @@ export default function Home() {
                         <div className="flex flex-col items-center pb-10">
                             <img
                                 className="w-24 h-24 md:w-36 md:h-36 mb-3 rounded-full shadow-lg"
-                                src={icon.anu}
+                                src={icon.aha}
                                 alt="Product Management Certificate"
                             />
-                            <h5 className="mb-1 text-lg md:text-xl font-medium text-gray-900 dark:text-white">
+                            <h5 className="mb-1 text-lg md:text-xl font-medium text-gray-900 dark:text-black">
                                 Product Management Professional Certificate
                             </h5>
-                            <span className="text-sm mb-1 text-gray-500 dark:text-gray-400">Aha!</span>
-                            <span className="text-sm italic text-gray-500 dark:text-gray-400">December 2023</span>
+                            <span className="text-sm mb-1 text-gray-500 dark:text-black">Aha!</span>
+                            <span className="text-sm italic text-gray-500 dark:text-black">December 2023</span>
                         </div>
                     </div>
                 </div>
@@ -474,15 +474,15 @@ export default function Home() {
                     </div>
 
                     <div className="overflow-x-auto shadow-md sm:rounded-lg">
-                        <table className="w-full text-sm md:text-base text-left text-gray-500 dark:text-gray-400">
+                        <table className="w-full text-sm md:text-base text-left text-gray-500 dark:text-black">
                             <thead
-                                className="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-800 dark:text-gray-400">
+                                className="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-800 dark:text-white">
                             <tr>
                                 <th scope="col" className="px-6 py-3">
-                                    Categories
+                                    CATEGORIES
                                 </th>
                                 <th scope="col" className="px-6 py-3">
-                                    Skills
+                                    SKILLS
                                 </th>
                             </tr>
                             </thead>
