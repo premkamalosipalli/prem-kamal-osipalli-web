@@ -20,18 +20,18 @@ export default function Home() {
     };
 
     return (
-        <div className="p-4 sm:ml-40 sm:mr-40">
-            <div className="p-4 border-dashed rounded-lg dark:border-gray-700">
-                <div className="flex flex-col items-center justify-center h-48 mb-4 rounded dark:bg-white">
+        <div className="bg-white dark:bg-slate-800 rounded-lg px-6 py-8 ring-1 ring-slate-900/5 shadow-xl">
+            <div className="p-4 border-dashed rounded-lg dark:border-slate-800">
+                <div className="flex dark:bg-slate-800 flex-col items-center justify-center h-48 mb-4 rounded">
                     {/*Introduction*/}
-                    <h2 className="text-lg font-bold text-black dark:text-black mb-2">
+                    <h2 className="text-lg dark:text-white font-bold text-blackmb-2">
                         Hello, my name is
                     </h2>
                     <p className="text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight tracking-tight text-gray-900 dark:text-white">
-                        <span className="font-bold text-black">Prem kamal</span>{" "}
-                        <span className="font-bold text-blue-900">Osipalli</span>
+                        <span className="font-bold dark:text-white text-black">Prem kamal</span>{" "}
+                        <span className="font-bold dark:text-blue-300 text-blue-900">Osipalli</span>
                     </p>
-                    <p className="mt-2 text-lg font-bold text-black dark:text-black">
+                    <p className="mt-2 text-lg font-bold text-black dark:text-white">
                         Software Engineer at VerityPay
                     </p>
 
@@ -41,7 +41,7 @@ export default function Home() {
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8 items-center">
                     {/* Profile Image */}
-                    <div className="flex justify-center md:justify-start">
+                    <div className="flex justify-center md:justify-center">
                         <div
                             className="flex-shrink-0 rounded-full overflow-hidden shadow-lg w-60 h-60 md:w-80 md:h-80 lg:w-96 lg:h-96">
                             <img
@@ -54,20 +54,21 @@ export default function Home() {
 
                     {/* About Me Section */}
                     <div className="text-center md:text-left max-w-lg mx-auto md:mx-0">
-                        <h2 className="text-3xl md:text-4xl lg:text-5xl font-extrabold text-blue-900 mb-4">About Me</h2>
+                        <h2 className="text-3xl md:text-4xl lg:text-5xl font-extrabold text-blue-900 mb-4 dark:text-blue-300">
+                            About Me</h2>
 
-                        <p className="text-lg font-semibold text-gray-900 mb-2">
-                            Software Engineer || <span className="text-blue-900">Full Stack Java Developer</span>
+                        <p className="text-lg font-semibold text-gray-900 mb-2 dark:text-white">
+                            Software Engineer || <span className="text-blue-900 dark:text-blue-300">Full Stack Java Developer</span>
                         </p>
 
-                        <p className="text-black text-base md:text-lg leading-relaxed">
+                        <p className="text-black text-base md:text-lg leading-relaxed dark:text-white">
                             As a dedicated software engineer, I specialize in developing and managing innovative
                             technology solutions that drive business success. With expertise in full-stack development
                             utilizing Java, Spring Boot, and React, I am adept at creating robust applications that meet
                             diverse and evolving needs.
                         </p>
 
-                        <p className="mt-4 text-black text-base md:text-lg leading-relaxed">
+                        <p className="mt-4 text-black text-base md:text-lg leading-relaxed dark:text-white">
                             Currently, I am contributing to the growth of VerityPay, where I focus on the development of
                             our SaaS products. My role encompasses overseeing technical implementations, integrating
                             secure authentication mechanisms, and ensuring compliance with industry standards. I am
@@ -81,7 +82,7 @@ export default function Home() {
                 {/*Education*/}
                 <div className="grid grid-cols-1 gap-4 ">
                     <div className="flex items-center justify-center rounded h-28 ">
-                        <h2 className="text-4xl md:text-5xl font-extrabold text-blue-900 mb-4 ">Education</h2>
+                        <h2 className="text-4xl md:text-5xl font-extrabold text-blue-900 mb-4 dark:text-blue-300">Education</h2>
                     </div>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8 items-center">
@@ -90,14 +91,14 @@ export default function Home() {
                         <div className="flex flex-col items-center pb-10">
                             <img className="w-36 h-36 mb-3 rounded-full shadow-lg"
                                  src={icon.unt} alt="Bonnie image"/>
-                            <h5 className="mb-1 text-xl font-medium text-gray-900 dark:text-black">University of North
+                            <h5 className="mb-1 text-xl font-medium text-gray-900 dark:text-white">University of North
                                 Texas</h5>
                             <span
-                                className="text-sm mb-1 text-gray-500 dark:text-black">Master's in Computer Science</span>
+                                className="text-sm mb-1 text-gray-500 dark:text-white">Master's in Computer Science</span>
                             <span
-                                className="text-sm italic text-gray-500 dark:text-black">Jan 2022 -  May 2023</span>
+                                className="text-sm italic text-gray-500 dark:text-white">Jan 2022 -  May 2023</span>
                             <span
-                                className="text-sm text-gray-500 dark:text-black">GPA: 4/4</span>
+                                className="text-sm text-gray-500 dark:text-white">GPA: 4/4</span>
 
 
                         </div>
@@ -106,15 +107,15 @@ export default function Home() {
                         <div className="flex flex-col items-center pb-10">
                             <img className="w-36 h-36 mb-3 rounded-full shadow-lg"
                                  src={icon.anu} alt="Bonnie image"/>
-                            <h5 className="mb-1 text-xl font-medium text-gray-900 dark:text-black">Acharya Nagarjuna
+                            <h5 className="mb-1 text-xl font-medium text-gray-900 dark:text-white">Acharya Nagarjuna
                                 University</h5>
                             <span
-                                className="text-sm mb-1 text-gray-500 dark:text-black">Bachelor's in Computer Science</span>
+                                className="text-sm mb-1 text-gray-500 dark:text-white">Bachelor's in Computer Science</span>
 
                             <span
-                                className="text-sm italic text-gray-500 dark:text-black">June 2015 -  April 2019</span>
+                                className="text-sm italic text-gray-500 dark:text-white">June 2015 -  April 2019</span>
                             <span
-                                className="text-sm text-gray-500 dark:text-black">CGPA: 8.5/10</span>
+                                className="text-sm text-gray-500 dark:text-white">CGPA: 8.5/10</span>
 
                         </div>
                     </div>
@@ -123,7 +124,7 @@ export default function Home() {
                 {/*Experience*/}
                 <div className="grid grid-cols-1 gap-4">
                     <div className="flex items-center justify-center rounded h-28 ">
-                        <h2 className="text-4xl md:text-5xl font-extrabold text-blue-900 mb-4 ">Experience</h2>
+                        <h2 className="text-4xl md:text-5xl font-extrabold text-blue-900 mb-4 dark:text-blue-300">Experience</h2>
                     </div>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8 items-center">
@@ -132,21 +133,24 @@ export default function Home() {
                         <div className="flex flex-col items-center pb-10">
                             <img className="w-36 h-36 mb-3 rounded-full shadow-lg"
                                  src={icon.veritypay} alt="Bonnie image"/>
-                            <h5 className="mb-1 text-xl font-medium text-gray-900 dark:text-black">VerityPay</h5>
+                            <h5 className="mb-1 text-xl font-medium text-gray-900 dark:text-white">VerityPay</h5>
                             <span
-                                className="text-sm mb-1 text-gray-500 dark:text-black">Software Enginner</span>
+                                className="text-sm mb-1 text-gray-500 dark:text-white">Software Enginner</span>
 
                             <span
-                                className="text-sm mb-1 text-gray-500 dark:text-black">Houston, Texas</span>
+                                className="text-sm mb-1 text-gray-500 dark:text-white">Houston, Texas</span>
 
                             <span
-                                className="text-sm italic text-gray-500 dark:text-black">June 2023 -  Present</span>
+                                className="text-sm italic text-gray-500 dark:text-white">June 2023 -  Present</span>
 
                             <div className="flex mt-4 md:mt-4">
                                 {/* Modal Toggle Button */}
                                 <button
                                     onClick={veritypayModal}
-                                    className="block text-white bg-green-700 hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                                    className="block text-white bg-green-700 hover:bg-green-800 focus:ring-4 
+                                    focus:outline-none focus:ring-blue-300 font-medium rounded-lg 
+                                    text-sm px-5 py-2.5 text-center dark:text-black dark:bg-green-800 
+                                    dark:hover:bg-blue-300 dark:focus:ring-white"
                                 >
                                     Responsibilities
                                 </button>
@@ -236,21 +240,24 @@ export default function Home() {
                         <div className="flex flex-col items-center pb-10">
                             <img className="w-36 h-36 mb-3 rounded-full shadow-lg"
                                  src={icon.alignbits} alt="Bonnie image"/>
-                            <h5 className="mb-1 text-xl font-medium text-gray-900 dark:text-black">AlignBits LLC</h5>
+                            <h5 className="mb-1 text-xl font-medium text-gray-900 dark:text-white">AlignBits LLC</h5>
                             <span
-                                className="text-sm mb-1 text-gray-500 dark:text-black">Software Enginner</span>
+                                className="text-sm mb-1 text-gray-500 dark:text-white">Software Enginner</span>
 
                             <span
-                                className="text-sm mb-1 text-gray-500 dark:text-black">Pune, India</span>
+                                className="text-sm mb-1 text-gray-500 dark:text-white">Pune, India</span>
 
                             <span
-                                className="text-sm italic text-gray-500 dark:text-black">Aug 2021 -  Dec 2021</span>
+                                className="text-sm italic text-gray-500 dark:text-white">Aug 2021 -  Dec 2021</span>
 
                             <div className="flex mt-4 md:mt-4">
                                 {/* Modal Toggle Button */}
                                 <button
                                     onClick={alignBitsModel}
-                                    className="block text-white bg-green-700 hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                                    className="block text-white bg-green-700 hover:bg-green-800 focus:ring-4 
+                                    focus:outline-none focus:ring-blue-300 font-medium rounded-lg 
+                                    text-sm px-5 py-2.5 text-center dark:text-black dark:bg-green-800 
+                                    dark:hover:bg-blue-300 dark:focus:ring-white"
                                 >
                                     Responsibilities
                                 </button>
@@ -325,22 +332,25 @@ export default function Home() {
                         <div className="flex flex-col items-center pb-10">
                             <img className="w-36 h-36 mb-3 rounded-full shadow-lg"
                                  src={icon.brick} alt="Bonnie image"/>
-                            <h5 className="mb-1 text-xl font-medium text-gray-900 dark:text-black">BrickYard Digital
+                            <h5 className="mb-1 text-xl font-medium text-gray-900 dark:text-white">BrickYard Digital
                                 Private Limited</h5>
                             <span
-                                className="text-sm mb-1 text-gray-500 dark:text-black">Full Stack Java Developer</span>
+                                className="text-sm mb-1 text-gray-500 dark:text-white">Full Stack Java Developer</span>
 
                             <span
-                                className="text-sm mb-1 text-gray-500 dark:text-black">Hyderabad, India</span>
+                                className="text-sm mb-1 text-gray-500 dark:text-white">Hyderabad, India</span>
 
                             <span
-                                className="text-sm italic text-gray-500 dark:text-black">Aug 2019 -  Aug 2021</span>
+                                className="text-sm italic text-gray-500 dark:text-white">Aug 2019 -  Aug 2021</span>
 
                             <div className="flex mt-4 md:mt-4">
                                 {/* Modal Toggle Button */}
                                 <button
                                     onClick={brickModal}
-                                    className="block text-white bg-green-700 hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                                    className="block text-white bg-green-700 hover:bg-green-800 focus:ring-4 
+                                    focus:outline-none focus:ring-blue-300 font-medium rounded-lg 
+                                    text-sm px-5 py-2.5 text-center dark:text-black dark:bg-green-800 
+                                    dark:hover:bg-blue-300 dark:focus:ring-white"
                                 >
                                     Responsibilities
                                 </button>
@@ -424,7 +434,7 @@ export default function Home() {
                 {/*Certifications*/}
                 <div className="grid grid-cols-1 gap-4">
                     <div className="flex items-center justify-center rounded h-28">
-                        <h2 className="text-4xl md:text-5xl font-extrabold text-blue-900 mb-4">Certifications</h2>
+                        <h2 className="text-4xl md:text-5xl font-extrabold text-blue-900 mb-4 dark:text-blue-300">Certifications</h2>
                     </div>
                 </div>
 
@@ -437,13 +447,13 @@ export default function Home() {
                                 src={icon.aws}
                                 alt="AWS Solutions Architect"
                             />
-                            <h5 className="mb-1 text-lg md:text-xl font-medium text-gray-900 dark:text-black">
+                            <h5 className="mb-1 text-lg md:text-xl font-medium text-gray-900 dark:text-white">
                                 AWS Solutions Architect Associate
                             </h5>
-                            <span className="text-sm mb-1 text-gray-500 dark:text-black">
+                            <span className="text-sm mb-1 text-gray-500 dark:text-white">
                 Amazon Web Services
             </span>
-                            <span className="text-sm italic text-gray-500 dark:text-black">
+                            <span className="text-sm italic text-gray-500 dark:text-white">
                 April 2024 - April 2027
             </span>
                         </div>
@@ -457,11 +467,11 @@ export default function Home() {
                                 src={icon.aha}
                                 alt="Product Management Certificate"
                             />
-                            <h5 className="mb-1 text-lg md:text-xl font-medium text-gray-900 dark:text-black">
+                            <h5 className="mb-1 text-lg md:text-xl font-medium text-gray-900 dark:text-white">
                                 Product Management Professional Certificate
                             </h5>
-                            <span className="text-sm mb-1 text-gray-500 dark:text-black">Aha!</span>
-                            <span className="text-sm italic text-gray-500 dark:text-black">December 2023</span>
+                            <span className="text-sm mb-1 text-gray-500 dark:text-white">Aha!</span>
+                            <span className="text-sm italic text-gray-500 dark:text-white">December 2023</span>
                         </div>
                     </div>
                 </div>
@@ -470,13 +480,13 @@ export default function Home() {
                 {/*Skills*/}
                 <div className="grid grid-cols-1 gap-4 mb-8">
                     <div className="flex items-center justify-center rounded h-28">
-                        <h2 className="text-3xl md:text-4xl font-extrabold text-blue-900 mb-4">Skills</h2>
+                        <h2 className="text-3xl md:text-4xl font-extrabold text-blue-900 mb-4 dark:text-blue-300">Skills</h2>
                     </div>
 
                     <div className="overflow-x-auto shadow-md sm:rounded-lg">
-                        <table className="w-full text-sm md:text-base text-left text-gray-500 dark:text-black">
+                        <table className="w-full text-sm md:text-base text-left text-gray-500 dark:text-white">
                             <thead
-                                className="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-800 dark:text-white">
+                                className="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-800 dark:text-blue-300">
                             <tr>
                                 <th scope="col" className="px-6 py-3">
                                     CATEGORIES
