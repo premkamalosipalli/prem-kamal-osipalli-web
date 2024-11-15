@@ -26,10 +26,10 @@ export default function Header() {
                             Log In
                         </Link>
                         <Link
-                            to="#"
+                            to="https://www.linkedin.com/in/premkamalosipalli/"
                             className="text-white dark:text-white bg-green-700 hover:bg-green-800 focus:ring-4 focus:ring-orange-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 focus:outline-none"
                         >
-                            Get started
+                            Get Connect
                         </Link>
                     </div>
                     {/* Mobile menu button */}

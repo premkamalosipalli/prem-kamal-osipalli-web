@@ -10,7 +10,8 @@ export const  icon={
     unt: '/icons/home/unt.png',
     veritypay: '/icons/home/veritypay.png',
     brick: '/icons/home/brick.png',
-    aha: '/icons/home/aha.png'
+    aha: '/icons/home/aha.png',
+    freelance: '/icons/home/freelance.png'
 
 
 }

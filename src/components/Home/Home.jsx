@@ -127,7 +127,7 @@ export default function Home() {
                         <h2 className="text-4xl md:text-5xl font-extrabold text-blue-900 mb-4 dark:text-blue-300">Experience</h2>
                     </div>
                 </div>
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8 items-center">
+                <div className="grid grid-cols-1 md:grid-cols-4 gap-4 mb-8 items-center">
 
                     <div className="flex items-center justify-center rounded  h-80 ">
                         <div className="flex flex-col items-center pb-10">
@@ -331,9 +331,8 @@ export default function Home() {
                     <div className="flex items-center justify-center rounded  h-80 ">
                         <div className="flex flex-col items-center pb-10">
                             <img className="w-36 h-36 mb-3 rounded-full shadow-lg"
-                                 src={icon.brick} alt="Bonnie image"/>
-                            <h5 className="mb-1 text-xl font-medium text-gray-900 dark:text-white">BrickYard Digital
-                                Private Limited</h5>
+                                 src={icon.freelance} alt="Bonnie image"/>
+                            <h5 className="mb-1 text-xl font-medium text-gray-900 dark:text-white">FreeLance</h5>
                             <span
                                 className="text-sm mb-1 text-gray-500 dark:text-white">Full Stack Java Developer</span>
 
@@ -341,7 +340,97 @@ export default function Home() {
                                 className="text-sm mb-1 text-gray-500 dark:text-white">Hyderabad, India</span>
 
                             <span
-                                className="text-sm italic text-gray-500 dark:text-white">Aug 2019 -  Aug 2021</span>
+                                className="text-sm italic text-gray-500 dark:text-white">Dec 2019 -  Aug 2021</span>
+
+                            <div className="flex mt-4 md:mt-4">
+                                {/* Modal Toggle Button */}
+                                <button
+                                    onClick={brickModal}
+                                    className="block text-white bg-green-700 hover:bg-green-800 focus:ring-4
+                                    focus:outline-none focus:ring-blue-300 font-medium rounded-lg
+                                    text-sm px-5 py-2.5 text-center dark:text-black dark:bg-green-800
+                                    dark:hover:bg-blue-300 dark:focus:ring-white"
+                                >
+                                    Responsibilities
+                                </button>
+
+                                {/* Main Modal */}
+                                {isBrickModalOpen && (
+                                    <div
+                                        className="fixed inset-0 z-50 flex justify-center items-center w-full h-full bg-black bg-opacity-50"
+                                    >
+                                        <div className="relative p-4 w-full max-w-2xl">
+                                            {/* Modal Content */}
+                                            <div className="relative bg-white rounded-lg shadow dark:bg-white">
+                                                {/* Modal Header */}
+                                                <div
+                                                    className="flex items-center justify-between p-4 md:p-5 border-b rounded-t dark:border-gray-600">
+                                                    <h3 className="text-xl font-semibold text-gray-900 dark:text-black">
+                                                        Roles and Responsibilities
+                                                    </h3>
+                                                    <button
+                                                        type="button"
+                                                        onClick={brickModal}
+                                                        className="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 inline-flex justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white"
+                                                    >
+                                                        <svg
+                                                            className="w-3 h-3"
+                                                            aria-hidden="true"
+                                                            xmlns="http://www.w3.org/2000/svg"
+                                                            fill="none"
+                                                            viewBox="0 0 14 14"
+                                                        >
+                                                            <path
+                                                                stroke="currentColor"
+                                                                strokeLinecap="round"
+                                                                strokeLinejoin="round"
+                                                                strokeWidth="2"
+                                                                d="M1 1l6 6m0 0l6 6M7 7l6-6M7 7L1 13"
+                                                            />
+                                                        </svg>
+                                                        <span className="sr-only">Close modal</span>
+                                                    </button>
+                                                </div>
+
+                                                {/* Modal Body */}
+                                                <div className="p-4 md:p-5 space-y-4">
+
+                                                    <p className="text-base leading-relaxed text-gray-500 dark:text-black">
+                                                        Designed, developed, tested, and deployed E-commerce
+                                                        applications using Java Script, Type Script,
+                                                        ReactJS, AngularJS, Angular 4, Java, JSON, Java EE, Spring Boot,
+                                                        Hibernates, Multithreading, MySQL
+                                                        database and Google Cloud Platform.
+                                                    </p>
+
+                                                    <p className="text-base leading-relaxed text-gray-500 dark:text-black">
+                                                        Developed RESTful web services using Spring JPA and provided
+                                                        support for Production and
+                                                        Implementation Issues.
+                                                    </p>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                )}
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="flex items-center justify-center rounded  h-80 ">
+                        <div className="flex flex-col items-center pb-10">
+                            <img className="w-36 h-36 mb-3 rounded-full shadow-lg"
+                                 src={icon.brick} alt="Bonnie image"/>
+                            <h5 className="mb-1 text-xl font-medium text-gray-900 dark:text-white">BlueSky Commerce</h5>
+                            <span
+                                className="text-sm mb-1 text-gray-500 dark:text-white">Full Stack Java Developer</span>
+
+                            <span
+                                className="text-sm mb-1 text-gray-500 dark:text-white">Hyderabad, India</span>
+
+                            <span
+                                className="text-sm italic text-gray-500 dark:text-white">Aug 2019 -  Nov 2019</span>
 
                             <div className="flex mt-4 md:mt-4">
                                 {/* Modal Toggle Button */}
